@@ -1,0 +1,33 @@
+.footer{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.info__container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.footer__links{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.current__link{
+    font-size: 12px;
+}
+
+.subtitle{
+    color: #b1b6b8;
+    margin: 10px 0px;
+    font-size: 12px;
+    text-align: end;
+}
